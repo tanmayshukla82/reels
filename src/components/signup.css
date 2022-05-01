@@ -1,0 +1,35 @@
+.card_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 50vw;
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.sub1
+{
+    text-align: center;
+    color: grey;
+}
+.style-box
+{
+    margin: 0.5rem;
+}
+.card2
+{
+    margin-top: 1rem;
+    height: 3rem;
+}
