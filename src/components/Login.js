@@ -107,12 +107,13 @@ export default function Login() {
               margin="normal"
               label="Password"
               variant="outlined"
+              type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
             <div style={{ display: "flex", justifyContent: "center" }}>
               <Link
-                to="/"
+                to="/login"
                 style={{ textDecoration: "none", textAlign: "center" }}
               >
                 Forgot Password

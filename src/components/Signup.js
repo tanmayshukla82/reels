@@ -104,6 +104,7 @@ export default function Signup() {
               size="small"
               margin="normal"
               label="Password"
+              type="password"
               variant="outlined"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
